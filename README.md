@@ -5,3 +5,4 @@ flutter를 사용하여 기본 개발을 진행하였으며,
 모바일에서 실행하기 위해서는 apk파일을 설치해야합니다.
 firebase를 이용하여 로그인을 하도록 하였고, 구글과 애플 로그인을 지원하도록 하였습니다. 
 firebase애서 제공하는 firestore database를 이용하여 vue+vite로 개발한 웹과 내용을 공유하도록 하였습니다. 
+firebase연동은 main.dart에서 앱이 시작될 때 firebase.initailizeApp()을 통해 초기화되며, 초기 사용자를 위해 익명을 제공하고 후에는 로그인 서비스를 제공하도록 하였습니다. 
