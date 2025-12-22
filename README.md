@@ -1,16 +1,7 @@
-# community_mobile
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+이 프로젝트는 term-project의 모바일 앱 개발을 위한 코드를 담고있습니다. 
+간단한 커뮤니티 앱으로 내가 남기고 싶은 글을 작성할 수 있도록 만들었습니다. 
+만약 작성한 글이 맘에 들지 않는다면 수정과 삭제가 가능하도록 만들었습니다.
+flutter를 사용하여 기본 개발을 진행하였으며, 
+모바일에서 실행하기 위해서는 apk파일을 설치해야합니다.
+firebase를 이용하여 로그인을 하도록 하였고, 구글과 애플 로그인을 지원하도록 하였습니다. 
+firebase애서 제공하는 firestore database를 이용하여 vue+vite로 개발한 웹과 내용을 공유하도록 하였습니다. 
